@@ -43,23 +43,16 @@ body {
   /* border: 2px solid green; */
   overflow-x: hidden
 }
-
 .side-bar {
-  /*  */
-  background-color: var(--primary-color);
-  /* border: 5px solid rgb(0, 0, 0); */
-  border-right: 0.1px solid #979797;
-  /* flex: 0.8; */
-  display: none;
-  flex-direction: column;
-  gap: 50px;
-  /* padding-left: 50px; */
-  padding-right: 20px;
-  height: 100vh;
-  /* overflow-x: hidden; */
-  margin-right: 0;
-  /* padding: 0 12px 0 26px; */
-  width: 350px;
+  background-color: var(--primary-color); /* Sets the background color using a CSS variable */
+  border-right: 0.1px solid #979797; /* Adds a border on the right side */
+  display: block; /* Initially hides the sidebar */
+  flex-direction: column; /* Arranges items vertically */
+  gap: 50px; /* Sets the gap between children elements */
+  padding-right: 20px; /* Adds right padding */
+  height: 100vh; /* Sets the height to full viewport height */
+  margin-right: 0; /* Removes any right margin */
+  width: 350px; /* Sets the width of the sidebar */
 }
 
 .boards-nav-links-div {
@@ -803,11 +796,11 @@ input:checked + #label-checkbox-theme:after {
 }
 
 @media screen and (max-width: 800px) {
-  /* .task-div {
+   .task-div {
         width: 450px;
     } */
 
-  /* .side-bar.show-sidebar {
+   .side-bar.show-sidebar {
     display: none !important;
   }
 
@@ -1422,3 +1415,4 @@ input:checked + #label-checkbox-theme:after {
     width: 30%;
   }
 }
+
