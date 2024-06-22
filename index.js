@@ -9,6 +9,7 @@ function initializeData() {
   }
 }
 
+
 // DOM elements
 const elements = {
   headerBoardName: document.getElementById('header-board-name'),

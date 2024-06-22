@@ -1,4 +1,5 @@
 
+import { getTasks, createNewTask, putTask, deleteTask } from './utils/taskFunctions.js';
 // Simulate fetching tasks from localStorage
 export const getTasks = () => {
   const tasks = localStorage.getItem('tasks');
